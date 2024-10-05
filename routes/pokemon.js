@@ -98,4 +98,6 @@ pokemon.patch("/:id([0-9]{1,3})", async (req, res, next) => {
     }
     return res.status(500).json({code: 500, message: "Ocurrio un error"});
 });
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 module.exports = pokemon;
